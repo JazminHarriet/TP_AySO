@@ -1,1 +1,2 @@
 Usuario=vagrant
+model name	: Intel(R) Celeron(R) CPU N3350 @ 1.10GHz
