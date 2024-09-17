@@ -1,0 +1,50 @@
+ls -la
+man cant
+man cat
+cat <<FIN
+cd repogit
+cd TP_AySO/
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.email "jazminharriet@gmail.com"
+git config --global user.name "JazminHarriet"
+git commit -m "ADD: agregado al 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1 | tail -n1 >> datos_usuario.txt
+git status
+git commit
+grep
+man grep
+man sort
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7 > lista
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7 > lista_ordenada
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+aptsw
+apt search dump traffic
+echo "tcdump" > comando_dump_net
+echo "apt search dump traffic" >> comando_dump_net
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+git status
+cat << FIN >> README. md
+Alumno: Jazmin 
+Division: 116
+Turno: Mañana
+FIN
+
+cat << FIN >> README.md
+Alumno: Jazmin Harriet
+Division: 116
+Turno: Mañana
+FIN
+
+git add .
+git commit -m "docs: Tecnicas de redireccionamiento y heredoc y agregarle info al README.md"
+history -a
